@@ -1,4 +1,4 @@
-import PromoCard from "./Promocard";
+import PromoCard from './PromoCard.jsx';
 import buyOne from '../assets/breakfast.png';
 import happyMeal from '../assets/Happy-Meal.png';
 import breakFast from '../assets/breakfast.png';
