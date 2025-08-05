@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Big Mac",
+    "price": 6.49,
+    "description": "Two beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun.",
+    "image": "/images/bigmac.png",
+    "tags": ["bogo", "lunch"]
+  },
+  {
+    "id": 2,
+    "name": "McChicken",
+    "price": 5.29,
+    "description": "Crispy chicken patty with shredded lettuce and creamy mayo on a toasted bun.",
+    "image": "/images/mcchicken.png",
+    "tags": ["chicken", "lunch"]
+  },
+  {
+    "id": 3,
+    "name": "French Fries",
+    "price": 3.19,
+    "description": "Golden crispy fries with just the right amount of salt.",
+    "image": "/images/fries.png",
+    "tags": ["sides", "bogo"]
+  },
+  {
+    "id": 4,
+    "name": "Filet-O-Fish",
+    "price": 5.79,
+    "description": "Fish filet, tangy tartar sauce and half a slice of cheese on a steamed bun.",
+    "image": "/images/filetofish.png",
+    "tags": ["fish", "lunch"]
+  },
+  {
+    "id": 5,
+    "name": "McFlurry Oreo",
+    "price": 3.99,
+    "description": "Vanilla soft serve with crushed Oreo cookies mixed in.",
+    "image": "/images/mcflurry.png",
+    "tags": ["bogo"]
+  },
+  {
+    "id": 6,
+    "name": "Chicken McNuggets (6 pcs)",
+    "price": 4.89,
+    "description": "6 pieces of crispy, juicy chicken nuggets served with your choice of sauce.",
+    "image": "/images/nuggets.png",
+    "tags": ["chicken", "snack"]
+  },
+  {
+    "id": 7,
+    "name": "Cheeseburger",
+    "price": 2.99,
+    "description": "Beef patty with cheese, ketchup, mustard, pickles and onions.",
+    "image": "/images/Cheeseburger.png",
+    "tags": ["Happy Meal", "bogo"]
+  },
+  {
+    "id": 8,
+    "name": "Double Cheeseburger",
+    "price": 4.49,
+    "description": "Two beef patties, two slices of cheese, and classic toppings.",
+    "image": "/images/Double Cheeseburger.png",
+    "tags": ["Happy Meal"]
+  },
+  {
+    "id": 9,
+    "name": "Spicy McChicken",
+    "price": 5.49,
+    "description": "Crispy chicken with a kick of heat, lettuce, and spicy mayo.",
+    "image": "/images/Spicy McChicken.png",
+    "tags": ["chicken", "spicy"]
+  },
+  {
+    "id": 10,
+    "name": "Apple Pie",
+    "price": 1.99,
+    "description": "Classic warm apple pie with a crispy shell.",
+    "image": "/images/Apple Pie.png",
+    "tags": ["dessert", "bogo"]
+  },
+  {
+    "id": 11,
+    "name": "Vanilla Cone",
+    "price": 1.29,
+    "description": "Simple vanilla soft-serve in a crispy cone.",
+    "image": "/images/Vanilla Cone.png",
+    "tags": ["dessert", "ice-cream"]
+  },
+  {
+    "id": 12,
+    "name": "McCafé Latte",
+    "price": 2.99,
+    "description": "Smooth, steamed milk blended with rich espresso.",
+    "image": "/images/McCafé Latte.png",
+    "tags": ["drinks", "breakfast"]
+  },
+  {
+    "id": 13,
+    "name": "McArabia Chicken",
+    "price": 6.99,
+    "description": "Grilled chicken with garlic sauce in Arabic flatbread.",
+    "image": "/images/McArabia Chicken.png",
+    "tags": ["chicken", "arabian", "lunch"]
+  },
+  {
+    "id": 14,
+    "name": "Egg McMuffin",
+    "price": 3.49,
+    "description": "Egg, cheese, and Canadian bacon on a toasted English muffin.",
+    "image": "/images/Egg McMuffin.png",
+    "tags": ["breakfast", "egg"]
+  },
+  {
+    "id": 15,
+    "name": "Hash Browns",
+    "price": 1.59,
+    "description": "Crispy and golden shredded potato hash browns.",
+    "image": "/images/Hash Browns.png",
+    "tags": ["breakfast", "sides"]
+  },
+  {
+    "id": 16,
+    "name": "Sausage McMuffin",
+    "price": 2.79,
+    "description": "Sausage patty with cheese on a toasted muffin.",
+    "image": "/images/Sausage McMuffin.png",
+    "tags": ["breakfast", "sausage"]
+  },
+  {
+    "id": 17,
+    "name": "McCafé Iced Coffee",
+    "price": 2.49,
+    "description": "Chilled coffee sweetened and served with ice.",
+    "image": "/images/McCafé Iced Coffee.png",
+    "tags": ["drinks", "iced", "coffee"]
+  },
+  {
+    "id": 18,
+    "name": "Strawberry Sundae",
+    "price": 2.19,
+    "description": "Vanilla soft serve topped with sweet strawberry sauce.",
+    "image": "/images/Strawberry Sundae.png",
+    "tags": ["dessert", "ice-cream", "fruit"]
+  },
+  {
+    "id": 19,
+    "name": "Chocolate Sundae",
+    "price": 2.19,
+    "description": "Creamy vanilla soft serve topped with chocolate sauce.",
+    "image": "/images/Chocolate Sundae.png",
+    "tags": ["dessert", "ice-cream", "chocolate"]
+  },
+  {
+    "id": 20,
+    "name": "Coca-Cola (Medium)",
+    "price": 1.79,
+    "description": "Classic refreshing Coca-Cola served chilled.",
+    "image": "/images/Coca-Cola (Medium).png",
+    "tags": ["drinks"]
+  },
+  {
+    "id": 21,
+    "name": "Sprite (Medium)",
+    "price": 1.79,
+    "description": "Refreshing lemon-lime soda served cold.",
+    "image": "/images/Sprite (Medium).png",
+    "tags": ["drinks"]
+  },
+  {
+    "id": 22,
+    "name": "Orange Juice",
+    "price": 2.29,
+    "description": "100% pure orange juice, no added sugar.",
+    "image": "/images/Orange Juice.png",
+    "tags": ["drinks", "breakfast"]
+  },
+  {
+    "id": 23,
+    "name": "Happy Meal Cheeseburger",
+    "price": 4.99,
+    "description": "Kids meal with cheeseburger, fries, drink, and toy.",
+    "image": "/images/Happy Meal Cheeseburger.png",
+    "tags": ["Happy Meal", "kids"]
+  },
+  {
+    "id": 24,
+    "name": "Grilled Chicken Salad",
+    "price": 5.99,
+    "description": "Mixed greens with grilled chicken and balsamic dressing.",
+    "image": "/images/Grilled Chicken Salad.png",
+    "tags": ["salad", "healthy"]
+  },
+  {
+    "id": 25,
+    "name": "Mozzarella Sticks",
+    "price": 3.49,
+    "description": "Crispy fried cheese sticks with marinara sauce.",
+    "image": "/images/Mozzarella Sticks.png",
+    "tags": ["sides", "snacks"]
+  },
+  {
+    "id": 26,
+    "name": "Deluxe Crispy Chicken",
+    "price": 6.99,
+    "description": "Crispy chicken breast with lettuce, tomato and mayo.",
+    "image": "/images/Deluxe Crispy Chicken.png",
+    "tags": ["chicken", "lunch"]
+  },
+  {
+    "id": 27,
+    "name": "Hot Chocolate",
+    "price": 2.29,
+    "description": "Warm creamy cocoa topped with whipped cream.",
+    "image": "/images/Hot Chocolate.png",
+    "tags": ["drinks", "breakfast"]
+  },
+  {
+    "id": 28,
+    "name": "Caramel Frappe",
+    "price": 3.79,
+    "description": "Blended ice drink with coffee and caramel flavor.",
+    "image": "/images/Caramel Frappe.png",
+    "tags": ["drinks", "dessert"]
+  },
+  {
+    "id": 29,
+    "name": "Triple Cheeseburger",
+    "price": 5.49,
+    "description": "Three beef patties, three cheese slices, and all the fixings.",
+    "image": "/images/Triple Cheeseburger.png",
+    "tags": ["lunch", "beef"]
+  },
+  {
+    "id": 30,
+    "name": "Spicy Nuggets (6 pcs)",
+    "price": 5.19,
+    "description": "Spicy version of the classic McNuggets.",
+    "image": "/images/Spicy Nuggets (6 pcs).png",
+    "tags": ["chicken", "spicy", "bogo"]
+  }
+]
