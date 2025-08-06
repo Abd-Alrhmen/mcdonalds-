@@ -56,7 +56,7 @@ function Cart() {
             <div className="flex items-center gap-2 mt-2">
               <button
                 onClick={() => decreaseQuantity(item.id)}
-                className="bg-yellow-400 text-white px-2 py-1 rounded hover:bg-yellow-500"
+                className="bg-yellow-400 text-white px-2 py-1 rounded hover:bg-yellow-500 cursor-pointer"
               >
                 -
               </button>
@@ -65,13 +65,13 @@ function Cart() {
 
               <button
                 onClick={() => increaseQuantity(item.id)}
-                className="bg-green-600 text-white px-2 py-1 rounded hover:bg-green-700"
+                className="bg-green-600 text-white px-2 py-1 rounded hover:bg-green-700 cursor-pointer "
               >
                 +
               </button>
               <button
                 onClick={() => removeFromCart(item.id)}
-                className="ml-4 bg-red-600 text-white px-2 py-1 rounded hover:bg-red-700"
+                className="ml-4 bg-red-600 text-white px-2 py-1 rounded hover:bg-red-700 cursor-pointer "
               >
                 Delete
               </button>

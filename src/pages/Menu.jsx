@@ -41,14 +41,14 @@ function Menu() {
             />
           </div>
           <h3 className="text-xl font-bold mt-2">{item.name}</h3>
-          <p className="text-gray-600 line-clamp-2 h-[60px]">{item.description}</p>
+          <p className="text-gray-600 leading-[1.5rem] line-clamp-2 min-h-[3rem] ">{item.description}</p>
           <p className="text-red-500 font-semibold mt-2"> ${item.price}</p>
           <button
             onClick={() => {
               addToCart(item)
               toast.success("Added To Cart!");  
             }}
-            className="mt-2 px-4 py-2 bg-yellow-400 text-black font-semibold rounded hover:bg-yellow-500 transition"
+            className="mt-2 px-4 py-2 bg-yellow-400 text-black font-semibold rounded hover:bg-yellow-500 transition cursor-pointer"
           >
             Add to Cart
           </button>

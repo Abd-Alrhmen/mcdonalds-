@@ -81,11 +81,11 @@ function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <ul className="md:hidden mt-2 space-y-2 px-4">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="menu">Menu</Link></li>
-          <li><Link to="cart">Cart</Link></li>
-          <li><Link to="wishlist">Wishlist</Link></li>
+        <ul className="md:hidden mt-2 space-y-2 px-4 transition-all duration-300 transform animate-slide-down">
+          <li onClick={()=>setIsOpen(false)}><Link to="/">Home</Link></li>
+          <li onClick={()=>setIsOpen(false)}><Link to="menu">Menu</Link></li>
+          <li onClick={()=>setIsOpen(false)}><Link to="cart">Cart</Link></li>
+          <li onClick={()=>setIsOpen(false)}><Link to="contact">Contact</Link></li>
         </ul>
       )}
     </nav>
