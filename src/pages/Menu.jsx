@@ -8,7 +8,7 @@ import { fetcher } from "../utils/fetcher";
 
 function Menu() {
   const { addToCart } = useContext(CartContext);
-  const { searchTrem } = useContext(SearchContext);
+  const { searchTerm } = useContext(SearchContext);
 
   const { data: menuItems, isLoading, isError, error } = useQuery({
     queryKey: ['menu'],
@@ -20,7 +20,7 @@ function Menu() {
   if (isError) return <p className="text-center text-red-500 p-4">Error: {error.message}</p>;
 
   const filteredItems = menuItems.filter((item) =>
-    item.name.toLowerCase().includes(searchTrem.toLowerCase())
+    item.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (

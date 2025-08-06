@@ -2,9 +2,9 @@ import { createContext, useState } from "react";
 
 export const SearchContext = createContext();
 export function SearchProvider({children}){
-    const [ searchTrem, setSearchTrem ] = useState ("");
+    const [ searchTerm, setSearchTerm ] = useState ("");
     return(
-        <SearchContext.Provider value={{searchTrem, setSearchTrem }}>
+        <SearchContext.Provider value={{searchTerm, setSearchTerm }}>
             {children}
         </SearchContext.Provider>
     );
