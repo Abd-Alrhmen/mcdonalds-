@@ -8,13 +8,13 @@ function Navbar() {
   const { cartItems } = useContext(CartContext);
   const [ showNavbar, SetShowNavbar ] = useState(true);
   const [ lastScrollY, setLastScrollY ] = useState(0);
-  const {setSearchTrem} = useContext(SearchContext);
+  const {setSearchTerm} = useContext(SearchContext);
   const navigate = useNavigate();
   
   // Search
   const handleSearchChange = (e)=> {
-    const value = e.target.value ;
-    setSearchTrem(value);
+    const value = e.target.value.replace(/^\s+/, '') ;
+    setSearchTerm(value);
     navigate("/menu")
   }
 
@@ -83,9 +83,9 @@ function Navbar() {
       {isOpen && (
         <ul className="md:hidden mt-2 space-y-2 px-4 transition-all duration-300 transform animate-slide-down">
           <li onClick={()=>setIsOpen(false)}><Link to="/">Home</Link></li>
-          <li onClick={()=>setIsOpen(false)}><Link to="menu">Menu</Link></li>
-          <li onClick={()=>setIsOpen(false)}><Link to="cart">Cart</Link></li>
-          <li onClick={()=>setIsOpen(false)}><Link to="contact">Contact</Link></li>
+          <li onClick={()=>setIsOpen(false)}><Link to="/menu">Menu</Link></li>
+          <li onClick={()=>setIsOpen(false)}><Link to="/cart">Cart</Link></li>
+          <li onClick={()=>setIsOpen(false)}><Link to="/contact">Contact</Link></li>
         </ul>
       )}
     </nav>
